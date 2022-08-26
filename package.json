@@ -1,39 +1,11 @@
 {
-  "name": "nextjs-super-starter",
-  "version": "1.0.0",
-  "author": "Turhan Sel",
-  "description": "Next.js super kit",
-  "main": "/",
-  "bin": "/",
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "git+github:turhansel/nextjs-super-starter"
-  },
-  "bugs": {
-    "url": "https://github.com/turhansel/nextjs-super-starter/issues"
-  },
-  "publishConfig": {
-    "access": "public",
-    "branches": [
-      "main"
-    ]
-  },
-  "homepage": "https://github.com/turhansel/nextjs-super-starter",
-  "keywords": [
-    "nextjs",
-    "typescript",
-    "tailwindcss",
-    "husky",
-    "lint-staged"
-  ],
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "semantic-release": "semantic-release",
     "cm": "cz"
   },
   "dependencies": {
@@ -61,8 +33,7 @@
     "husky": "^8.0.0",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24",
-    "typescript": "4.7.2",
-    "semantic-release": "^17.4.4"
+    "typescript": "4.7.2"
   },
   "config": {
     "commitizen": {
